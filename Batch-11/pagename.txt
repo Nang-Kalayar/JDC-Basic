@@ -1,0 +1,21 @@
+gemini.com
+===================================
+Car is a vehicle
+what's modifier set before top level class -
+public access,
+default access,
+final,abstract,
+strictfp,
+sealed,
+non-sealed
+class A {
+	//private class InnerClass
+	}
+javac -cp src src/com/jdc/inheritance/InheritanceApplication.java -d bin
+=========================================================
+casting class
+neither it's super type  nor any other type
+need to narrow or downcast for getting child type
+obj that to pass must be casting type or it's sub type
+can avoid exception using instanceof ,instanceof is called operator
+polymorphism has two kinds-class,behavior (method overiddng)

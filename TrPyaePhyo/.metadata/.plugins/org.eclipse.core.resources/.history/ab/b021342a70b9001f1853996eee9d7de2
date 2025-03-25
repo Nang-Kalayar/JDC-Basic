@@ -1,0 +1,5 @@
+package com.jdc.converter;
+
+public @interface SuppressWarinings {
+
+}

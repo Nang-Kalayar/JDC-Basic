@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" th:fragment="layout(content)"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../static/bootstrap/css/bootstrap.min.css"
+    th:href="@{/bootstrap/css/bootstrap.min.css}">
+    <script src="../../static/bootstrap/js/bootstrap.min.js"
+    th:href="@{/bootstrap/js/bootstrap.min.js}"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand navbar-dark bg-success text-white p-2">
+    <a th:href="@{/}" class="navbar-brand">Employees</a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+    data-bs-target="#myNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="myNav" class="collapse navbar-collapse me-auto">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="" class="nav-link">Employees</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Employees</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Employees</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div th:replace="${content}"></div>
+</body>
+</html>

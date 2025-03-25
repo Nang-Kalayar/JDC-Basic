@@ -1,0 +1,11 @@
+package com.jdc.converter.json;
+import java.util.Objects;
+
+public class JsonConverter {
+	public static String toJson(Object objecct) throws IllegalArgumentException,
+	IllegalAccessException{
+		check(object);
+		return convert(object);
+	}
+
+}

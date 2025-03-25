@@ -1,0 +1,10 @@
+package com.solt.demo;
+
+public class MySingletonClass {
+	private static MySingletonClass instance;
+	
+	public MySingletonClass() {
+		
+	}
+
+}

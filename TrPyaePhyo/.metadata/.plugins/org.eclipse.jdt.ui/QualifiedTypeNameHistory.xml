@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Objects"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+    <fullyQualifiedTypeName name="com.jdc.converter.domain.JsonKey"/>
+    <fullyQualifiedTypeName name="com.jdc.converter.domain.Json"/>
+</qualifiedTypeNameHistroy>

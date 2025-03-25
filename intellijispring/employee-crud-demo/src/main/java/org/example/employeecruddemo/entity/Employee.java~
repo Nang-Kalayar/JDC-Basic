@@ -1,0 +1,4 @@
+package org.example.employeecruddemo.entity;
+
+public class Employee {
+}

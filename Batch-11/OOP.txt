@@ -1,0 +1,37 @@
+OOP
+// 14.11.2024 (Day-09)
+OOP Object Oriented Programming
+Programming is problem solving need to know techniques,programming paradise=> functional paradise based on object
+outside the class => package, import statement can be written ,procedure=method=function,
+under class has two member => static, instance
+class Student{}
+	var Student = new Student();
+	[owner].[member]
+same class =>this
+class name = template
+
+======================================================================================================================================================================
+Website name=> leefcode, class scope is {}, object scope is different packages, global variable=class level (under class)variable
+local variable inside block; declare variable,define method,
+static has method and class level,identifier means unique inside its scope,package means folder structure (file path)
+
+
+` batis
+~ tilde
+!
+# hash,number sign
+$ currency
+@ at
+% percent
+^cap
+& 
+*
+()
+- dash
+_
+{}[] /\ | pipe, vertical slash <> .,?; '' ""
+dot . current folder
+javac -cp .src/ src/com/jdc/cao/MainApplication.java -d ./bin
+java -cp bin/ com.jdc.cao.MainApplication
+===========================================================================================================================
+Unicode table

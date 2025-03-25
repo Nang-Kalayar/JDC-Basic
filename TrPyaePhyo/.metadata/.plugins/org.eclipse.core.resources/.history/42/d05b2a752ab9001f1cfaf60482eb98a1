@@ -1,0 +1,25 @@
+package com.jdc.converterer;
+import java.util.Arrays;
+
+import com.jdc.converter.json.JsonConverter;
+
+import domain.Student;
+public class JsonConverterApplication {
+	
+	public static void main(String[] args) {
+		Student student = new Student();
+		student.setName("Maung Maung");
+		student.setAge(20);
+		student.setPhone("2029809890");
+		student.setMarks(new int[] {40,50,60});
+		student.setAvg(Arrays.stream(student.getMarks()).average().getAsDouble());
+		student.setPrimary(false);
+		student.setSubjects(new String[] {"Myanmar","English","Math"});
+		try {
+			System.out.println(JsonConverter.toJson(student));
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

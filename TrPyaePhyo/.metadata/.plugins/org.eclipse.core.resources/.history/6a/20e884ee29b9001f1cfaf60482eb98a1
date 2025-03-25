@@ -1,0 +1,7 @@
+package com.jdc.converter.domain;
+
+
+@Retention(RUNTIME)
+public interface JsonIgnore {
+
+}

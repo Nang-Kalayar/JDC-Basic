@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html th:replace="~{layout/masterLayout :: layout(~{::main})}"
+      xmlns:th="http://www.thymeleaf.org">
+
+<body>
+<main role="main">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>EmployeeForm</h4>
+                    </div>
+                    <div class="card-body">
+                        <form th:action="@{/save-employee}"
+                              th:object="${employee}" method="post">
+                            <div class="mb-3">
+                                <label class="form-label">FirstName</label>
+                                <input type="text"
+                                       th:field="*{firstName}"
+                                class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">LastName</label>
+                                <input type="text"
+                                       th:field="*{lastName}"
+                                       class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="text"
+                                       th:field="*{email}"
+                                       class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">PhoneNumber</label>
+                                <input type="text"
+                                       th:field="*{phoneNumber}"
+                                       class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">DiredDate</label>
+                                <input type="date"
+                                       th:field="*{hiredDate}"
+                                       class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Salary</label>
+                                <input type="number"
+                                       th:field="*{salary}"
+                                       class="form-control">
+                            </div>
+                            <input type="submit"
+                                   class="btn btn-success w-100"
+                                   value="Save Employee">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>

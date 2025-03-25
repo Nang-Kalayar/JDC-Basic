@@ -1,0 +1,5 @@
+package com.jdc.converter.domain;
+
+public interface JsonIgnore {
+
+}

@@ -1,0 +1,9 @@
+package com.jdc.ecommerce;
+
+public interface Comparable {
+	
+	public int compareTo(Object obj) {
+		
+	}
+
+}

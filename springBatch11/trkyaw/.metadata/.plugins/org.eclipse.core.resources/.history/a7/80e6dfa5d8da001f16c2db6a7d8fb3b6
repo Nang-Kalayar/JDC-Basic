@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id ="student" class = "com.solt.demo.beans.Student">
+	<property name= "John Doe"></property>
+ </bean>
+ <bean id ="address" class = "com.solt.demo.beans.Address">
+	<property name= "Dream City"></property>
+ </bean>
+</beans>

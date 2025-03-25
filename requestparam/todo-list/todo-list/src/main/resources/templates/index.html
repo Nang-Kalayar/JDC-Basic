@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html th:replace="~{layout/masterLayout :: layout(~{::main})}"
+      xmlns:th="http://www.thymeleaf.org">
+
+<body>
+<main role="main">
+    <div class="container mt-5">
+        <div class=" list-group" th:each=" todo:${todoItems}">
+            <li class = "list-group-item"th:text="${todo.title}"></li>
+        </div>
+        <h1 class="text-primary text-center">Hello World</h1>
+    </div>
+    <hr class = "my-3">
+    <form th:action ="@{/todoForm}" th:object = "${todoItem}" method = "post">
+        <div class = "mb-3">
+            <label class = "form-label"> TodoItem </label>
+            <h2> Nang Kalyar </h2>
+            <input type="text">
+
+        </div>
+    </form>
+
+</main>
+</body>
+</html>

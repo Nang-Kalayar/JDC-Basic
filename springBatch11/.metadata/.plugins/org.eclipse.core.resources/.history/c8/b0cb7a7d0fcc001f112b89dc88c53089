@@ -1,0 +1,12 @@
+package com.solt.demo.beans;
+
+public class Knight {
+	
+	private RecuingroincessQuest quest =
+			new RecuingroincessQuest();
+	
+	public void goQuest() {
+		quest.embark();
+	}
+
+}

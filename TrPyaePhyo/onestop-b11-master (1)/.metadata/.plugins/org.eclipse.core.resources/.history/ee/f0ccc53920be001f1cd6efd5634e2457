@@ -1,0 +1,6 @@
+package com.jdc.exe.exception.domain;
+
+public class Product{
+	
+	
+}

@@ -1,0 +1,33 @@
+package com.solt.demo.beans;
+
+import jakarta.annotation.PostConstruct;
+@Component
+public class Student {
+	private String name="Nang Kalayar";
+	
+	private Address add;
+
+	public Student() {
+		System.out.println("Student constructor is called::"+add);
+	}
+	@PostConstruct
+	public void init() {
+		System.out.println("Student init method is called");
+	}
+	
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Address getAdd() {
+		return add;
+	}
+	public void setAdd(Address add) {
+		this.add = add;
+	}
+	
+}
+

@@ -1,0 +1,13 @@
+INDEX VERSION 1.134+E:\JDC\practise-lesson\.metadata\.plugins\org.eclipse.jdt.core
+1022272160.index
+4095219892.index
+1865797976.index
+3383188769.index
+2855597498.index
+4229933787.index
+2248913031.index
+2958386505.index
+426182736.index
+3163942196.index
+2836133419.index
+2150838992.index

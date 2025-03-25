@@ -1,0 +1,21 @@
+package com.solt.demo.beans;
+
+public class Student {
+	private String name="Nang Kalayar";
+	@Autowired
+	private Address add;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Address getAdd() {
+		return add;
+	}
+	public void setAdd(Address add) {
+		this.add = add;
+	}
+	
+}
+

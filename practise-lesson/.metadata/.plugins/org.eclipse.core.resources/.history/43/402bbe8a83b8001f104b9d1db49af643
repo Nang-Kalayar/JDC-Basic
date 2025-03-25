@@ -1,0 +1,5 @@
+package com.jdc.ecommerce;
+
+public class Item {
+
+}

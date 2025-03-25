@@ -1,0 +1,6 @@
+package com.jdc.converter.domain;
+
+public @interface JsonKey {
+	String value();
+
+}
